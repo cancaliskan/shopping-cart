@@ -35,7 +35,8 @@ namespace ShoppingCart.Application
 
             System.Console.WriteLine(shoppingCart.Print());
 
-            System.Console.WriteLine("*** After remove 3 Iphone 7 ***\n\n");
+            System.Console.WriteLine($"{"*** After 3 'iPhone 7' were removed ***",60} \n\n");
+
             shoppingCart.RemoveProduct(iphone7, 3);
             System.Console.WriteLine(shoppingCart.Print());
 
